@@ -9,4 +9,6 @@ jobs:
     - uses: actions/checkout@v1
     - uses: cmannix/sphinx-action@v0.3
       with:
+        pre-build-command: "echo PRE_BUILD"
+        build-command: "make epub"
         docs-folder: "."

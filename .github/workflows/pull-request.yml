@@ -10,5 +10,5 @@ jobs:
     - uses: cmannix/sphinx-action@v0.1-alpha
       with:
         pre-build-command: "echo PRE_BUILD"
-        build-command: "echo BUILD && make epub"
+        build-command: "make epub"
         docs-folder: "."

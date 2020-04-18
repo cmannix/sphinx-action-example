@@ -6,6 +6,8 @@
 Welcome to SphinxActionExample's documentation!
 ===============================================
 
+Have an example PR
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:

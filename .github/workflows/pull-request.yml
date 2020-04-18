@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: cmannix/sphinx-action@v0.1-alpha
+    - uses: cmannix/sphinx-action@v0.2-alpha
       with:
         docs-folder: "."

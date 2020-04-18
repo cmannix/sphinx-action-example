@@ -1,0 +1,12 @@
+name: "Pull Request Sphinx Check"
+on: 
+- pull_request
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: cmannix/sphinx-action@v0.1-alpha
+      with:
+        docs-folder: "."
